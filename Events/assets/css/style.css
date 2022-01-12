@@ -20,7 +20,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #f8234a;
   outline: none;
   text-decoration: none;
@@ -31,7 +33,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -134,7 +141,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
 }
-#header.header-scrolled, #header.header-inner {
+#header.header-scrolled,
+#header.header-inner {
   background: rgba(6, 12, 34, 0.98);
   height: 70px;
 }
@@ -149,7 +157,8 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo h1 span {
   color: #f82249;
 }
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h1 a,
+#header #logo h1 a:hover {
   color: #fff;
 }
 #header #logo img {
@@ -215,7 +224,8 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   padding: 10px 0 10px 12px;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -228,7 +238,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 6px 4px;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
@@ -244,11 +255,16 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+.navbar a:hover:before,
+.navbar li:hover > a:before,
+.navbar .active:before {
   visibility: visible;
   width: 100%;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #fff;
 }
 .navbar .dropdown ul {
@@ -277,7 +293,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #f82249;
 }
 .navbar .dropdown:hover > ul {
@@ -357,18 +375,24 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile > ul > li {
   padding: 0;
 }
-.navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
+.navbar-mobile a:hover:before,
+.navbar-mobile li:hover > a:before,
+.navbar-mobile .active:before {
   visibility: hidden;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #060c22;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #f82249;
 }
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
   margin: 15px;
 }
 .navbar-mobile .dropdown ul {
@@ -391,7 +415,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #f82249;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -1062,7 +1088,8 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
   }
 }
-#subscribe .section-header h2, #subscribe p {
+#subscribe .section-header h2,
+#subscribe p {
   color: #fff;
 }
 #subscribe input {
@@ -1146,7 +1173,8 @@ h1, h2, h3, h4, h5, h6 {
 #buy-tickets .card .btn:hover {
   background-color: #e0072f;
 }
-#buy-tickets #buy-ticket-modal input, #buy-tickets #buy-ticket-modal select {
+#buy-tickets #buy-ticket-modal input,
+#buy-tickets #buy-ticket-modal select {
   border-radius: 0;
 }
 #buy-tickets #buy-ticket-modal .btn {
@@ -1178,7 +1206,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
   color: #f82249;
 }
-#contact .contact-info address, #contact .contact-info p {
+#contact .contact-info address,
+#contact .contact-info p {
   margin-bottom: 0;
   color: #112363;
 }
@@ -1195,11 +1224,15 @@ h1, h2, h3, h4, h5, h6 {
 #contact .contact-info a:hover {
   color: #f82249;
 }
-#contact .contact-address, #contact .contact-phone, #contact .contact-email {
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
-  #contact .contact-address, #contact .contact-phone, #contact .contact-email {
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
     padding: 20px 0;
   }
 }
@@ -1246,12 +1279,14 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-#contact .php-email-form input, #contact .php-email-form textarea {
+#contact .php-email-form input,
+#contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-#contact .php-email-form input:focus, #contact .php-email-form textarea:focus {
+#contact .php-email-form input:focus,
+#contact .php-email-form textarea:focus {
   border-color: #f82249;
 }
 #contact .php-email-form input {
@@ -1260,7 +1295,7 @@ h1, h2, h3, h4, h5, h6 {
 #contact .php-email-form textarea {
   padding: 12px 15px;
 }
-#contact .php-email-form button[type=submit] {
+#contact .php-email-form button[type="submit"] {
   background: #f82249;
   border: 0;
   padding: 10px 40px;
@@ -1269,7 +1304,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   cursor: pointer;
 }
-#contact .php-email-form button[type=submit]:hover {
+#contact .php-email-form button[type="submit"]:hover {
   background: #e0072f;
 }
 @-webkit-keyframes animate-loading {
@@ -1391,12 +1426,12 @@ h1, h2, h3, h4, h5, h6 {
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
 }
-#footer .footer-top .footer-newsletter input[type=email] {
+#footer .footer-top .footer-newsletter input[type="email"] {
   border: 0;
   padding: 6px 8px;
   width: 65%;
 }
-#footer .footer-top .footer-newsletter input[type=submit] {
+#footer .footer-top .footer-newsletter input[type="submit"] {
   background: #f82249;
   border: 0;
   width: 35%;
@@ -1406,7 +1441,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   cursor: pointer;
 }
-#footer .footer-top .footer-newsletter input[type=submit]:hover {
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
   background: #e0072f;
 }
 #footer .copyright {
